@@ -24,5 +24,6 @@ return root;
 //this will show that the nodes are on seperate branches
 return l!= null ? l:r;
 }
+//either one node was found on one branch or there were no nodes found
 }
 }
