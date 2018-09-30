@@ -16,3 +16,5 @@ if (root.equals(a) || root.equals(b)) {
 return root 
 }
 // if one is matched there is no need to continue as this is the LCA
+Node l = lowestCommonAncestor(root.getSuccesor1(), a, b);
+}
