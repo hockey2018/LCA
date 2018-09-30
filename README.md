@@ -8,3 +8,11 @@ public class lowestCommonAncestor {
 		// http://www.fusu.us/2013/06/p2-lowest-common-ancestor-in-binary-tree.html
 		// Adapted
     
+public static Node lowestCommonAncestor(Node root, Node a, Node b){
+if( root == null){
+return null;
+}
+if (root.equals(a) || root.equals(b)) {
+return root 
+}
+// if one is matched there is no need to continue as this is the LCA
