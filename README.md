@@ -18,4 +18,6 @@ return root
 // if one is matched there is no need to continue as this is the LCA
 Node l = lowestCommonAncestor(root.getSuccesor1(), a, b);
 Node r = lowestCommonAncestor(root.getSuccesor2(), a, b);
+if(l!=null && r !=null){
+return root;
 }
