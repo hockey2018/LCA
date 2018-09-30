@@ -21,3 +21,4 @@ Node r = lowestCommonAncestor(root.getSuccesor2(), a, b);
 if(l!=null && r !=null){
 return root;
 }
+//this will show that the nodes are on seperate branches
