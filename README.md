@@ -22,3 +22,7 @@ if(l!=null && r !=null){
 return root;
 }
 //this will show that the nodes are on seperate branches
+return l!= null ? l:r;
+}
+}
+}
