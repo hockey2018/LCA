@@ -8,3 +8,15 @@ public class lowestCommonAncestorTest{
 @test 
 public void emptyBinaryTreeTest{
 }
+
+
+
+@test
+public void oneNodeTest {
+
+}
+
+@test
+public void twoNodeTest{
+
+}
