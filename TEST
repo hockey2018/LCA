@@ -1,1 +1,6 @@
 //This is where we will test the Lowest Common Ancestor
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class lowestCommonAncestorTest{
+//this is used as the test class
