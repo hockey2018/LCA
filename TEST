@@ -4,3 +4,7 @@ import org.junit.Test;
 
 public class lowestCommonAncestorTest{
 //this is used as the test class
+
+@test 
+public void emptyBinaryTreeTest{
+}
