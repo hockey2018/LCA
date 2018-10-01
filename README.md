@@ -3,4 +3,8 @@ My name is Aoife and I am studying computer engineering. This is a college assig
 // Source:
 		// http://www.fusu.us/2013/06/p2-lowest-common-ancestor-in-binary-tree.html
  //adapted
- public static 
+ public static Node lowestCommonAncestor(Node root, Node a, Node b){
+ if (root == null){
+ return null;
+ }
+ 
